@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista07</title>
 </head>
 <body>
     <form>
@@ -16,7 +16,7 @@
             <label for="txtDataNasc">Data de nascimento:</label><br>
             <input id="txtDataNasc" type="date" required>
             <br><br>
-            <label for="txtSexo">Sexo:</label><br>
+            <label>Sexo:</label><br>
             <input type="radio" name="sexo" id="masc" required><label for="masc"> Masculino</label>
             <input type="radio" name="sexo" id="fem" required><label for="fem"> Feminino</label>
         </fieldset>
@@ -42,11 +42,11 @@
             <input type="number" id="txtNum" min="1" max="9999" placeholder="Valor entre 1 e 9999" style="width: 170px;" required>
             <br><br>
             <label for="txtCidade">Cidade:</label><br>
-            <input type="text" id="txtCidade"required>
+            <input type="text" id="txtCidade" required>
             <br><br>
             <label>Estado:</label><br>
             <select required>
-                <option selected>Selecione um estado</option>
+                <option value="" label="Selecione um estado"></option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
