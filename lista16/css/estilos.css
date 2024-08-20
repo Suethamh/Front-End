@@ -7,6 +7,7 @@
     font-family: Oswald;
 }
 
+
 nav ul {
     background-color: black;
     text-align: right;
@@ -36,15 +37,15 @@ nav ul li a:hover {
 }
 
 nav ul li a.html5:hover {
-    background-image: url(/lista16/img/html5.png);
+    background-image: url(img/html5.png);
 }
 
 nav ul li a.css3:hover {
-    background-image: url(/lista16/img/css3.png);
+    background-image: url(img/css3.png);
 }
 
 nav ul li a.javascript:hover {
-    background-image: url(/lista16/img/javascript.png);
+    background-image: url(img/javascript.png);
 }
 
 .imagem-topo {
@@ -92,10 +93,6 @@ section.informacao {
 
 .imagem-texto {
     padding: 20px 0px;
-}
-
-.corpo {
-    margin: 40px 0px;
 }
 
 .divImagem {
