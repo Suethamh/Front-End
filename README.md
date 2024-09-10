@@ -1,0 +1,1 @@
+kkkk que troxa o cara n tinha um README antes de eu fazer, vai tomando 🕴️
