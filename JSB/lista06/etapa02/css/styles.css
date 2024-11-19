@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container > div h2, .container > div > div p span {
+    color: darkred;
+    text-transform: uppercase;
+}
+.container > div > div h3, .container > div > div p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.container > div > div {
+    width: 320px;
+    padding: 25px;
+    background-color: #c4d69c;
+    margin: 10px;
+    border: 4px solid rgb(48, 22, 0);
+    transition: .3s all;
+}
+.container > div > div:hover {
+    background-color: #a2b37e;
+}
+.container > div > div img {
+    width: 220px;
+    height: 350px;
+    object-fit: cover;
+    margin: 20px 0;
+}
