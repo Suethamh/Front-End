@@ -1,0 +1,28 @@
+var usuario = document.getElementById("usuario");
+var senha = document.getElementById("senha");
+var btnEntrar = document.getElementById("entrar");
+var btnLimpar = document.getElementById("limpar");
+
+function validacao(usuario, senha) {
+    if (usuario.value == null || usuario.value == undefined || usuario.value == "" ||
+        senha.value == null || senha.value == undefined || senha.value == "") {
+        alert("informe usuário e senha");
+    } else if (usuario.value.toLowerCase() == "visitante") {
+        window.location.href = "visitante.html"
+    } else {
+        window.location.href = "construcao.html";
+    }
+}
+
+function limpar(usuario, senha) {
+    usuario.value = '';
+    senha.value = '';
+}
+
+btnLimpar.addEventListener("click", function () {
+    limpar(usuario, senha);
+})
+
+btnEntrar.addEventListener("click", function () {
+    validacao(usuario, senha);
+})

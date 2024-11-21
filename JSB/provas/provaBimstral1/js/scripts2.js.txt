@@ -1,0 +1,37 @@
+var nome = document.getElementById("nome");
+var btnClick = document.getElementById("btn1");
+var btnEnter = document.getElementById("btn2");
+var btnOut = document.getElementById("btn3");
+var btnRandom = document.getElementById("btn4");
+var emoji = document.getElementById("emoji");
+var txt = document.getElementById("saudacao");
+
+function mudarNomeEmoji(nroEmoji) {
+    if(nome.value == null || nome.value == undefined || nome.value == ""){
+        txt.innerHTML = 'Olá, visitante';
+    } else {
+        txt.innerHTML = `Olá, ${nome.value}`;
+    }
+    emoji.src = `img/emoji${nroEmoji}.jpg`;
+}
+
+function randomizarEmoji () {
+    return Math.floor(Math.random() * 4) + 1;
+}
+
+btnClick.addEventListener("click", function () {
+    mudarNomeEmoji(1);
+});
+
+btnEnter.addEventListener("mouseenter", function () {
+    mudarNomeEmoji(2)
+})
+
+btnOut.addEventListener("mouseleave", function(){
+    mudarNomeEmoji(3);
+})
+
+btnRandom.addEventListener("click", function() {
+    var nroAleatorio = randomizarEmoji();
+    mudarNomeEmoji(nroAleatorio);
+})
