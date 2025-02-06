@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function(){
         numero.disabled = false;
     }
 
-    numero.disabled = false;
+    numero.disabled = true;
     
     numero.addEventListener("click", function(){
         numeroAtual = parseInt(numero.innerHTML)
@@ -106,6 +106,8 @@ window.addEventListener("DOMContentLoaded", function(){
         numPares.innerHTML = paresAtuais;
         acertosPorcentagem.innerHTML = "0.00%";
         numero.innerHTML = "_";
+        numero.disabled = true;
+
     }
 
     function diminuicaoMin(){
