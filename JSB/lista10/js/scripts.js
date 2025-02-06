@@ -83,6 +83,13 @@ window.addEventListener("DOMContentLoaded", function(){
         }
     });
 
+    function pausar(){
+        clearInterval(jogo);
+        clearInterval(porcentagem);
+        clearInterval(temporizadorSeg);
+        clearTimeout(temporizadorMin);
+    }
+
     function parar(){
         nivel.disabled = false;
         clearInterval(jogo);
@@ -109,7 +116,7 @@ window.addEventListener("DOMContentLoaded", function(){
     function diminuicaoSeg(){
         segundos.innerHTML -= 1;
         if(segundos.innerHTML == 0 && minutos.innerHTML == 0){
-            parar();
+            pausar();
         }
     }
 
@@ -160,10 +167,7 @@ window.addEventListener("DOMContentLoaded", function(){
     })
 
     btnPausar.addEventListener("click", function(){
-        clearInterval(jogo);
-        clearInterval(porcentagem);
-        clearInterval(temporizadorSeg);
-        clearTimeout(temporizadorMin);
+        pausar();
     })
 
     btnParar.addEventListener("click", function(){
