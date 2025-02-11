@@ -12,6 +12,8 @@ window.addEventListener("DOMContentLoaded", function(){
     const erros = document.getElementById("erros");
     const numPares = document.getElementById("numPares");
     const btnVoltar = document.getElementById("btnVoltar");
+    const somAcerto = new Audio("../audio/acerto.mp3");
+    const somErro = new Audio("../audio/erro.mp3");
 
 
     var numRandom;
@@ -39,9 +41,11 @@ window.addEventListener("DOMContentLoaded", function(){
         if(numeroAtual % 2 == 0){
             numero.style.color = "green";
             acertosAtuais += 1;
+            somAcerto.play();
         }else{
             numero.style.color = "red";
             errosAtuais += 1;
+            somErro.play();
         }
         numero.disabled = true;
         acertos.innerHTML = acertosAtuais;
@@ -90,6 +94,7 @@ window.addEventListener("DOMContentLoaded", function(){
         clearInterval(porcentagem);
         clearInterval(temporizadorSeg);
         clearTimeout(temporizadorMin);
+        numero.disabled = true;
     }
 
     function parar(){
@@ -109,7 +114,7 @@ window.addEventListener("DOMContentLoaded", function(){
         acertosPorcentagem.innerHTML = "0.00%";
         numero.innerHTML = "_";
         numero.disabled = true;
-
+        numero.style.color = "black";
     }
 
     function diminuicaoMin(){
