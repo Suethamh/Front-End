@@ -1,0 +1,12 @@
+.secaoInformacao {
+    width: 1200px;
+    margin: auto;
+    font-family: arial;
+    margin-bottom: 100px;
+}
+
+.secaoInformacao h2 {
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
