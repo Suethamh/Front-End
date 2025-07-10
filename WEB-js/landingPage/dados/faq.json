@@ -1,67 +1,66 @@
 [
-    {
-        pergunta: "1. Como saber se eu preciso de terapia?",
-        resposta: "Não é necessário estar em crise para buscar terapia. Qualquer pessoa que deseje compreender melhor a si mesma, lidar com emoções difíceis ou simplesmente cuidar de sua saúde mental pode se beneficiar do processo terapêutico."
-    },
-    {
-        pergunta: "2. Como agendar a primeira sessão?",
-        resposta: "É simples! Basta entrar em contato pelos canais disponibilizados no site. Estarei à disposição para esclarecer eventuais dúvidas, explicar como funciona o atendimento e, se desejar, agendamos um horário para iniciar seu processo terapêutico."
-    },
-    {
-        pergunta: "3. O sigilo das informações é garantido?",
-        resposta: "Sim. O sigilo profissional é um dos pilares da atuação do psicólogo, independentemente do formato da terapia, salvo em situações de risco muito excepcionais. No caso do atendimento online, inclusive, só são utilizadas plataformas que garantam a proteção das informações com criptografia de ponta a ponta."
-    },
-    {
-        pergunta: "4. Como funciona a primeira sessão?",
-        resposta: "Na primeira sessão, o psicólogo acolhe sua demanda, escuta atentamente o que você deseja trabalhar e explica como funciona o processo terapêutico. É um momento importante para construir vínculo, esclarecer dúvidas e alinhar expectativas."
-    },
-    {
-        pergunta: "5. Como a terapia pode me ajudar na prática?",
-        resposta: "A terapia promove autoconhecimento, melhora a capacidade de lidar com emoções, fortalece habilidades de enfrentamento e favorece relações mais saudáveis. Na prática, você passa a compreender melhor seus padrões, tomar decisões com mais consciência e construir uma vida mais alinhada com seus valores e desejos."
-    },
-    {
-        pergunta: "6. A terapia online funciona mesmo?",
-        resposta: "Sim! A terapia online é uma modalidade reconhecida e regulamentada pelo Conselho Federal de Psicologia (CFP). Ela oferece os mesmos benefícios da terapia presencial, com a vantagem de maior flexibilidade e acessibilidade. O vínculo terapêutico e a qualidade do atendimento são preservados, promovendo acolhimento e escuta qualificada, onde quer que você esteja."
-    },
-    {
-        pergunta: "7. A terapia serve apenas para quem tem algum transtorno psicológico?",
-        resposta: "Não. Embora a terapia seja fundamental no tratamento de transtornos psicológicos, ela também é um espaço valioso para quem busca autoconhecimento, desenvolvimento pessoal ou deseja melhorar sua qualidade de vida. Muitas pessoas procuram terapia não por “doença”, mas por um desejo legítimo de crescer e viver com mais autenticidade."
-    },
-    {
-        pergunta: "8. Como são feitas as sessões de terapia online?",
-        resposta: "As sessões acontecem por videochamada, em plataformas seguras e de fácil acesso, como o WhatsApp. O ambiente virtual é preparado para garantir sigilo, conforto e privacidade — aspectos fundamentais para o bom andamento do processo terapêutico."
-    },
-    {
-        pergunta: "9. Quanto tempo dura um processo terapêutico?",
-        resposta: "Não há uma duração padrão. Cada pessoa tem seu próprio ritmo e necessidades. Alguns processos são mais breves, focados em questões pontuais, enquanto outros se estendem por mais tempo, promovendo um aprofundamento maior no autoconhecimento e transformação pessoal."
-    },
-    {
-        pergunta: "10. Quais são os principais motivos para buscar terapia online?",
-        resposta: "As razões são diversas: ansiedade, depressão, estresse, dificuldades nos relacionamentos, luto, autoconhecimento, entre outros. Além disso, a terapia online facilita o acesso a quem tem uma rotina intensa, mora em cidades pequenas ou vive fora do país."
-    },
-    {
-        pergunta: "11. O que preciso ter para começar a terapia online?",
-        resposta: "Você precisa apenas de um dispositivo com câmera (celular, computador ou tablet), acesso à internet e um local tranquilo, onde se sinta seguro e confortável para falar com privacidade. Ter fones de ouvido e headsets também pode ajudar muito."
-    },
-    {
-        pergunta: "12. Como é feito o pagamento das sessões?",
-        resposta: "O pagamento é realizado via Pix. Todas as informações são passadas com clareza e transparência no início do processo."
-    },
-    {
-        pergunta: "13. Posso interromper a terapia a qualquer momento?",
-        resposta: "Sim. A decisão de continuar ou interromper a terapia sempre será sua. Contudo, é recomendado que essa decisão seja conversada com o psicólogo, para que a finalização — ou uma eventual pausa — aconteça de forma consciente e respeitosa com o processo construído."
-    },
-    {
-        pergunta: "14. O que eu devo falar nas sessões?",
-        resposta: "Não existe um roteiro pré-estabelecido. Você pode falar sobre o que estiver sentindo, pensando ou vivendo no momento. O espaço é livre e acolhedor, e o psicólogo estará ali para ajudar a organizar seus pensamentos e explorar, junto com você, os aspectos que forem mais importantes."
-    },
-    {
-        pergunta: "15. É normal sentir resistência ou dificuldade de falar em terapia?",
-        resposta: "O pagamento é realizado via Pix. Todas as informações são passadas com clareza e transparência no início do processo."
-    },
-    {
-        pergunta: "16. Como escolher um psicólogo que seja adequado para mim?",
-        resposta: "Escolher um psicólogo envolve considerar aspectos como formação, abordagem teórica, disponibilidade e, principalmente, a afinidade pessoal. O mais importante é que você se sinta acolhido e respeitado, construindo uma relação de confiança ao longo do processo."
-    }
-
+  {
+    "pergunta": "1. Como saber se eu preciso de terapia?",
+    "resposta": "Não é necessário estar em crise para buscar terapia. Qualquer pessoa que deseje compreender melhor a si mesma, lidar com emoções difíceis ou simplesmente cuidar de sua saúde mental pode se beneficiar do processo terapêutico."
+  },
+  {
+    "pergunta": "2. Como agendar a primeira sessão?",
+    "resposta": "É simples! Basta entrar em contato pelos canais disponibilizados no site. Estarei à disposição para esclarecer eventuais dúvidas, explicar como funciona o atendimento e, se desejar, agendamos um horário para iniciar seu processo terapêutico."
+  },
+  {
+    "pergunta": "3. O sigilo das informações é garantido?",
+    "resposta": "Sim. O sigilo profissional é um dos pilares da atuação do psicólogo, independentemente do formato da terapia, salvo em situações de risco muito excepcionais. No caso do atendimento online, inclusive, só são utilizadas plataformas que garantam a proteção das informações com criptografia de ponta a ponta."
+  },
+  {
+    "pergunta": "4. Como funciona a primeira sessão?",
+    "resposta": "Na primeira sessão, o psicólogo acolhe sua demanda, escuta atentamente o que você deseja trabalhar e explica como funciona o processo terapêutico. É um momento importante para construir vínculo, esclarecer dúvidas e alinhar expectativas."
+  },
+  {
+    "pergunta": "5. Como a terapia pode me ajudar na prática?",
+    "resposta": "A terapia promove autoconhecimento, melhora a capacidade de lidar com emoções, fortalece habilidades de enfrentamento e favorece relações mais saudáveis. Na prática, você passa a compreender melhor seus padrões, tomar decisões com mais consciência e construir uma vida mais alinhada com seus valores e desejos."
+  },
+  {
+    "pergunta": "6. A terapia online funciona mesmo?",
+    "resposta": "Sim! A terapia online é uma modalidade reconhecida e regulamentada pelo Conselho Federal de Psicologia (CFP). Ela oferece os mesmos benefícios da terapia presencial, com a vantagem de maior flexibilidade e acessibilidade. O vínculo terapêutico e a qualidade do atendimento são preservados, promovendo acolhimento e escuta qualificada, onde quer que você esteja."
+  },
+  {
+    "pergunta": "7. A terapia serve apenas para quem tem algum transtorno psicológico?",
+    "resposta": "Não. Embora a terapia seja fundamental no tratamento de transtornos psicológicos, ela também é um espaço valioso para quem busca autoconhecimento, desenvolvimento pessoal ou deseja melhorar sua qualidade de vida. Muitas pessoas procuram terapia não por “doença”, mas por um desejo legítimo de crescer e viver com mais autenticidade."
+  },
+  {
+    "pergunta": "8. Como são feitas as sessões de terapia online?",
+    "resposta": "As sessões acontecem por videochamada, em plataformas seguras e de fácil acesso, como o WhatsApp. O ambiente virtual é preparado para garantir sigilo, conforto e privacidade — aspectos fundamentais para o bom andamento do processo terapêutico."
+  },
+  {
+    "pergunta": "9. Quanto tempo dura um processo terapêutico?",
+    "resposta": "Não há uma duração padrão. Cada pessoa tem seu próprio ritmo e necessidades. Alguns processos são mais breves, focados em questões pontuais, enquanto outros se estendem por mais tempo, promovendo um aprofundamento maior no autoconhecimento e transformação pessoal."
+  },
+  {
+    "pergunta": "10. Quais são os principais motivos para buscar terapia online?",
+    "resposta": "As razões são diversas: ansiedade, depressão, estresse, dificuldades nos relacionamentos, luto, autoconhecimento, entre outros. Além disso, a terapia online facilita o acesso a quem tem uma rotina intensa, mora em cidades pequenas ou vive fora do país."
+  },
+  {
+    "pergunta": "11. O que preciso ter para começar a terapia online?",
+    "resposta": "Você precisa apenas de um dispositivo com câmera (celular, computador ou tablet), acesso à internet e um local tranquilo, onde se sinta seguro e confortável para falar com privacidade. Ter fones de ouvido e headsets também pode ajudar muito."
+  },
+  {
+    "pergunta": "12. Como é feito o pagamento das sessões?",
+    "resposta": "O pagamento é realizado via Pix. Todas as informações são passadas com clareza e transparência no início do processo."
+  },
+  {
+    "pergunta": "13. Posso interromper a terapia a qualquer momento?",
+    "resposta": "Sim. A decisão de continuar ou interromper a terapia sempre será sua. Contudo, é recomendado que essa decisão seja conversada com o psicólogo, para que a finalização — ou uma eventual pausa — aconteça de forma consciente e respeitosa com o processo construído."
+  },
+  {
+    "pergunta": "14. O que eu devo falar nas sessões?",
+    "resposta": "Não existe um roteiro pré-estabelecido. Você pode falar sobre o que estiver sentindo, pensando ou vivendo no momento. O espaço é livre e acolhedor, e o psicólogo estará ali para ajudar a organizar seus pensamentos e explorar, junto com você, os aspectos que forem mais importantes."
+  },
+  {
+    "pergunta": "15. É normal sentir resistência ou dificuldade de falar em terapia?",
+    "resposta": "O pagamento é realizado via Pix. Todas as informações são passadas com clareza e transparência no início do processo."
+  },
+  {
+    "pergunta": "16. Como escolher um psicólogo que seja adequado para mim?",
+    "resposta": "Escolher um psicólogo envolve considerar aspectos como formação, abordagem teórica, disponibilidade e, principalmente, a afinidade pessoal. O mais importante é que você se sinta acolhido e respeitado, construindo uma relação de confiança ao longo do processo."
+  }
 ]
