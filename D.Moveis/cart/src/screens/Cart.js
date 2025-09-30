@@ -40,7 +40,7 @@ export const Cart = ({ items, getTotalPrice, getItemsCount, addItemToCart, remov
       ) : (
         <Text style={styles.emptyCart}>Seu carrinho está vazio!</Text>
       )}
-      
+
       {items.length > 0 && (
         <View style={styles.totalContainer}>
           <Text style={styles.totalText}>Preço Total: {numberFormat(getTotalPrice())}</Text>
@@ -50,4 +50,76 @@ export const Cart = ({ items, getTotalPrice, getItemsCount, addItemToCart, remov
   );
 };
 
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    padding: 16,
+  },
+  header: {
+    fontSize: 22,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+  productContainer: {
+    flexDirection: "row",
+    backgroundColor: "#f9f9f9",
+    borderRadius: 8,
+    padding: 16,
+    marginBottom: 12,
+    alignItems: "center",
+  },
+  productImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 8,
+  },
+  productInfo: {
+    marginLeft: 16,
+    flex: 1,
+  },
+  productName: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  productPrice: {
+    fontSize: 14,
+    color: "#777",
+    marginVertical: 4,
+  },
+  quantityContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: 8,
+  },
+  quantityButton: {
+    backgroundColor: "#007acc",
+    padding: 8,
+    borderRadius: 8,
+    marginHorizontal: 8,
+  },
+  quantityButtonText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  quantityText: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  totalContainer: {
+    marginTop: 20,
+    alignItems: "center",
+  },
+  totalText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#007acc",
+  },
+  emptyCart: {
+    fontSize: 16,
+    textAlign: "center",
+    color: "#777",
+    marginTop: 20,
+  },
+});
